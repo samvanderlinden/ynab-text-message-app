@@ -30,7 +30,7 @@ const sendMessage = async () => {
     } else {
       try {
         await client.messages.create({
-          body: "Congrats! Your savings account is looking good!",
+          body: "Congrats! Your savings account is looking awesome!",
           from: process.env.TWILIO_PHONE_NUMBER,
           to: process.env.PHONE_NUMBER,
         });
